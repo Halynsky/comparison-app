@@ -1,0 +1,69 @@
+.tree-element-content {
+    display: none;
+    margin-left: 18px;
+}
+
+.tree-element-img {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 2px;
+    margin-bottom: -2px;
+}
+
+.tree-element-label {
+    display: inline-block;
+}
+
+.tree-element-tittle {
+    display: inline-block;
+    line-height: 120%;
+    border-bottom: 2px transparent solid;
+    margin-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.tree-element-tittle-wrapper:hover .tree-element-tittle {
+    border-bottom: 2px #538cc6 solid;
+}
+
+.tree-element .tree-element-img {
+    background-image: url("../../img/my-icons-collection_black/folder-closed-black-shape.png");
+    background-repeat: no-repeat;
+}
+
+.tree-element.in .tree-element-img {
+    background-image: url("../../img/my-icons-collection_blue/open-folder.png");
+    background-repeat: no-repeat;
+}
+
+.tree-element .tree-element .tree-element-img {
+    background-image: url("../../img/my-icons-collection_black/010-handyman-tools.png");
+    background-repeat: no-repeat;
+}
+
+.tree-element .tree-element.in .tree-element-img {
+    background-image: url("../../img/my-icons-collection_blue/010-handyman-tools.png");
+    background-repeat: no-repeat;
+}
+
+.tree-element .tree-element .tree-element .tree-element-img {
+    background-image: url("../../img/my-icons-collection_black/question.png");
+    background-repeat: no-repeat;
+}
+
+.tree-element .tree-element .tree-element.in .tree-element-img {
+    background-image: url("../../img/my-icons-collection_blue/question.png");
+    background-repeat: no-repeat;
+}
+
+.tree-element .tree-element .tree-element .tree-element .tree-element-img {
+    background-image: url("../../img/my-icons-collection_black/004-check-box.png");
+    background-repeat: no-repeat;
+}
+
+.tree-element .tree-element .tree-element .tree-element.in:not(.is-empty) .tree-element-img {
+    background-image: url("../../img/my-icons-collection_blue/004-check-box.png");
+    background-repeat: no-repeat;
+}

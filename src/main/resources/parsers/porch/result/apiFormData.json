@@ -1,0 +1,425 @@
+{
+  "encoded_form_id": "wTEGiNPmFkqZvQ",
+  "fields": [
+    {
+      "id": 114,
+      "label": "How many bedrooms are in your home?",
+      "subtext": "",
+      "field": {
+        "id": 57,
+        "type": "enumeration",
+        "name": "Number of bedrooms",
+        "required": true,
+        "default_value_in_pricing_module": 4,
+        "allows_multiple_values": false,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 1,
+            "label": "Studio",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 2,
+            "label": "1 bedroom",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "2 bedrooms",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 4,
+            "label": "3 bedrooms",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 5,
+            "label": "4 bedrooms",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 6,
+            "label": "5 bedrooms",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 9,
+            "label": "6 bedrooms",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "label": "How many bathrooms are in your home?",
+      "subtext": "",
+      "field": {
+        "id": 62,
+        "type": "enumeration",
+        "name": "Number of bathrooms",
+        "required": true,
+        "default_value_in_pricing_module": 3,
+        "allows_multiple_values": false,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 1,
+            "label": "1 bathroom",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "2 bathrooms",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 7,
+            "label": "3 bathrooms",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 5,
+            "label": "4 bathrooms",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 9,
+            "label": "5 bathrooms",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 4095,
+      "label": "What is the square footage of your home?",
+      "subtext": "",
+      "field": {
+        "id": 2064,
+        "type": "enumeration",
+        "name": "Square footage of home",
+        "required": true,
+        "default_value_in_pricing_module": 3,
+        "allows_multiple_values": false,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 2,
+            "label": "Less than 1,000 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "1,000 - 1,500 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 4,
+            "label": "1,500 - 2,000 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 5,
+            "label": "2,000 - 2,500 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 6,
+            "label": "2,500 - 3,000 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 12,
+            "label": "3,000 - 3,500 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 13,
+            "label": "3,500 - 4,000 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 14,
+            "label": "4,000 - 4,500 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 15,
+            "label": "4,500 - 5,000 sq ft",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 6332,
+      "label": "How often would you like your house cleaned?",
+      "subtext": "",
+      "field": {
+        "id": 3199,
+        "type": "enumeration",
+        "name": "Recurrence",
+        "required": true,
+        "default_value_in_pricing_module": 1,
+        "allows_multiple_values": false,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 5,
+            "label": "Just once",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 1,
+            "label": "Every week",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 2,
+            "label": "Every 2 weeks",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "Once a month",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 6340,
+      "label": "What days are available for cleanings?",
+      "subtext": "",
+      "field": {
+        "id": 3203,
+        "type": "enumeration",
+        "name": "Day preference",
+        "required": true,
+        "default_value_in_pricing_module": null,
+        "allows_multiple_values": true,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 1,
+            "label": "Monday",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 2,
+            "label": "Tuesday",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "Wednesday",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 4,
+            "label": "Thursday",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 5,
+            "label": "Friday",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 6,
+            "label": "Saturday",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 7,
+            "label": "Sunday",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 6342,
+      "label": "What times are available for cleanings?",
+      "subtext": "",
+      "field": {
+        "id": 3204,
+        "type": "enumeration",
+        "name": "Time preference",
+        "required": true,
+        "default_value_in_pricing_module": null,
+        "allows_multiple_values": true,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 1,
+            "label": "Early morning (before 9am)",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 2,
+            "label": "Morning (9am-noon)",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "Early afternoon (noon - 3pm)",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 4,
+            "label": "Late afternoon (3 - 6pm)",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 5,
+            "label": "Evening (after 6pm)",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 10113,
+      "label": "What kind of cleaning service would you like?",
+      "subtext": "",
+      "field": {
+        "id": 5107,
+        "type": "enumeration",
+        "name": "Cleaning type",
+        "required": true,
+        "default_value_in_pricing_module": 1,
+        "allows_multiple_values": false,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 1,
+            "label": "Standard cleaning",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 2,
+            "label": "Deep cleaning",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "Move out cleaning",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 9201,
+      "label": "Which additional services do you need, if any?",
+      "subtext": "",
+      "field": {
+        "id": 4650,
+        "type": "enumeration",
+        "name": "Additional services needed",
+        "required": false,
+        "default_value_in_pricing_module": 2,
+        "allows_multiple_values": true,
+        "render_as_tally": false,
+        "possible_values": [
+          {
+            "value": 2,
+            "label": "Fridge cleaning",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 3,
+            "label": "Oven cleaning",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 4,
+            "label": "Interior window cleaning",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 1,
+            "label": "Laundry",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 4097,
+      "label": "What else should the cleaner know?",
+      "subtext": "",
+      "field": {
+        "id": 2065,
+        "type": "enumeration",
+        "name": "Other details",
+        "required": false,
+        "default_value_in_pricing_module": 2,
+        "allows_multiple_values": true,
+        "render_as_tally": true,
+        "possible_values": [
+          {
+            "value": 2,
+            "label": "I would like eco-friendly products",
+            "can_describe": false,
+            "credit_price": null
+          },
+          {
+            "value": 4,
+            "label": "I have pets",
+            "can_describe": false,
+            "credit_price": null
+          }
+        ]
+      }
+    }
+  ]
+}

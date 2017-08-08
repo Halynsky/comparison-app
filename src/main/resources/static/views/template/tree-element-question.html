@@ -1,0 +1,14 @@
+<div class="tree-element">
+    <div class="tree-element-tittle-wrapper">
+        <div class="tree-element-tittle" ng-click="collapseInTree($event, question.answers.length)">
+            <div class="tree-element-img"></div>
+            <div class="tree-element-label">{{question.label}}</div>
+        </div>
+    </div>
+
+    <div class="tree-element-content">
+        <div ng-repeat="answer in question.answers track by $index"
+             ng-include="'/static/views/template/tree-element-answer.html'">
+        </div>
+    </div>
+</div>

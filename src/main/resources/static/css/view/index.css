@@ -1,0 +1,48 @@
+#top_categories {
+    margin-top: 10px;
+}
+
+#top_categories_title {
+    text-align: left;
+    /* float: left; */
+    color: dimgrey;
+    font-size: 30px;
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+
+#top_categories md-content {
+    text-align: left;
+}
+
+#top_categories md-content md-card {
+    /*width: 306px;*/
+}
+
+#top_categories md-content md-card .md-button {
+    width: 100%;
+    text-align: left;
+}
+
+#top_categories md-content md-card .md-headline {
+    border-radius: 2px;
+    /* margin: 0px 5px; */
+    padding: 0px 6px;
+    color: #538cc6;
+    font-weight: 500;
+    /*background-color: rgba(240,240,240,1);*/
+}
+
+#top_categories md-content md-card md-card-actions {
+    margin: 15px;
+    margin-top: 0px;
+}
+
+#top_categories md-content md-card md-card-title {
+    padding-top: 16px;
+}
+
+#top_categories md-content md-card md-card-title-text {
+    border-bottom: solid 1px rgba(220,220,220,1);
+    padding-bottom: 10px;
+}

@@ -1,0 +1,40 @@
+<div id="popular_services_block_wrapper" class="main-card uprising-card" ng-controller="mainController">
+    <h3 class="main-content-tittle">Collected Info</h3>
+
+    <div class="statistic_block">
+        <span class="statistic_tittle">Statistic</span>
+        <div class="statistic_block_content">
+            <div class="statistic_block">
+                <span class="statistic_label">CategoriesCount:</span>
+                <span>{{statistic.categoriesCount}}</span>
+            </div>
+            <div class="statistic_block">
+                <span class="statistic_label">ServicesCount:</span>
+                <span>{{statistic.servicesCount}}</span>
+            </div>
+            <div class="statistic_block">
+                <span class="statistic_label">MinQuestions:</span>
+                <span>{{statistic.minQuestions}}</span>
+            </div>
+            <div class="statistic_block">
+                <span class="statistic_label">MaxQuestions:</span>
+                <span>{{statistic.maxQuestions}}</span>
+            </div>
+            <div class="statistic_block">
+                <span class="statistic_label">AverageQuestions:</span>
+                <span>{{statistic.averageQuestions}}</span>
+            </div>
+            <div class="statistic_block">
+                <span class="statistic_label">QuestionCoverage:</span>
+                <span>{{statistic.questionCoverage}}%</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-page-popular-works-wrapper">
+        <div ng-repeat="category in tree track by $index"
+             ng-init="categoryIndex = $index"
+             ng-include="'/static/views/template/tree-element-category.html'">
+        </div>
+    </div>
+</div>

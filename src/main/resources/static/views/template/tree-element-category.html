@@ -1,0 +1,15 @@
+<div class="tree-element" index="{{$index}}">
+    <div class="tree-element-tittle-wrapper">
+        <div class="tree-element-tittle" ng-click="getServices($event, categoryIndex)">
+            <div class="tree-element-img"></div>
+            <div class="tree-element-label">{{category.label}}</div>
+        </div>
+    </div>
+
+    <div class="tree-element-content">
+        <div ng-repeat="service in category.services track by $index"
+             ng-init="serviceIndex = $index"
+             ng-include="'/static/views/template/tree-element-service.html'">
+        </div>
+    </div>
+</div>
